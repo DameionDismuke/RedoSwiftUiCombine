@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0272DB1E2CA246F500A19B51 /* TechHolidayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DB1D2CA246F500A19B51 /* TechHolidayApp.swift */; };
+		0272DB202CA246F500A19B51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DB1F2CA246F500A19B51 /* ContentView.swift */; };
+		0272DB222CA246F900A19B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0272DB212CA246F900A19B51 /* Assets.xcassets */; };
+		0272DB252CA246F900A19B51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0272DB242CA246F900A19B51 /* Preview Assets.xcassets */; };
+		0272DB2F2CA246F900A19B51 /* TechHolidayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DB2E2CA246F900A19B51 /* TechHolidayTests.swift */; };
+		0272DB392CA246F900A19B51 /* TechHolidayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DB382CA246F900A19B51 /* TechHolidayUITests.swift */; };
+		0272DB3B2CA246F900A19B51 /* TechHolidayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DB3A2CA246F900A19B51 /* TechHolidayUITestsLaunchTests.swift */; };
+		0272DB482CA248E300A19B51 /* HolidayViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DB472CA248E300A19B51 /* HolidayViewModelTest.swift */; };
+		0272DB542CA248EF00A19B51 /* HolidetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DB4B2CA248EF00A19B51 /* HolidetailView.swift */; };
+		0272DB552CA248EF00A19B51 /* HolidayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DB4C2CA248EF00A19B51 /* HolidayView.swift */; };
+		0272DB562CA248EF00A19B51 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DB4E2CA248EF00A19B51 /* NetworkService.swift */; };
+		0272DB572CA248EF00A19B51 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DB4F2CA248EF00A19B51 /* NetworkError.swift */; };
+		0272DB582CA248EF00A19B51 /* techEval9162024swiftui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DB512CA248EF00A19B51 /* techEval9162024swiftui.swift */; };
+		0272DB592CA248EF00A19B51 /* HolidaysViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0272DB532CA248EF00A19B51 /* HolidaysViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0272DB2B2CA246F900A19B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0272DB122CA246F500A19B51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0272DB192CA246F500A19B51;
+			remoteInfo = TechHoliday;
+		};
+		0272DB352CA246F900A19B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0272DB122CA246F500A19B51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0272DB192CA246F500A19B51;
+			remoteInfo = TechHoliday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0272DB1A2CA246F500A19B51 /* TechHoliday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechHoliday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0272DB1D2CA246F500A19B51 /* TechHolidayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechHolidayApp.swift; sourceTree = "<group>"; };
+		0272DB1F2CA246F500A19B51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0272DB212CA246F900A19B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0272DB242CA246F900A19B51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0272DB2A2CA246F900A19B51 /* TechHolidayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechHolidayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0272DB2E2CA246F900A19B51 /* TechHolidayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechHolidayTests.swift; sourceTree = "<group>"; };
+		0272DB342CA246F900A19B51 /* TechHolidayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechHolidayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0272DB382CA246F900A19B51 /* TechHolidayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechHolidayUITests.swift; sourceTree = "<group>"; };
+		0272DB3A2CA246F900A19B51 /* TechHolidayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechHolidayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0272DB472CA248E300A19B51 /* HolidayViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayViewModelTest.swift; sourceTree = "<group>"; };
+		0272DB4B2CA248EF00A19B51 /* HolidetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidetailView.swift; sourceTree = "<group>"; };
+		0272DB4C2CA248EF00A19B51 /* HolidayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayView.swift; sourceTree = "<group>"; };
+		0272DB4E2CA248EF00A19B51 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0272DB4F2CA248EF00A19B51 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		0272DB512CA248EF00A19B51 /* techEval9162024swiftui.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = techEval9162024swiftui.swift; sourceTree = "<group>"; };
+		0272DB532CA248EF00A19B51 /* HolidaysViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidaysViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0272DB172CA246F500A19B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0272DB272CA246F900A19B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0272DB312CA246F900A19B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0272DB112CA246F500A19B51 = {
+			isa = PBXGroup;
+			children = (
+				0272DB1C2CA246F500A19B51 /* TechHoliday */,
+				0272DB2D2CA246F900A19B51 /* TechHolidayTests */,
+				0272DB372CA246F900A19B51 /* TechHolidayUITests */,
+				0272DB1B2CA246F500A19B51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0272DB1B2CA246F500A19B51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0272DB1A2CA246F500A19B51 /* TechHoliday.app */,
+				0272DB2A2CA246F900A19B51 /* TechHolidayTests.xctest */,
+				0272DB342CA246F900A19B51 /* TechHolidayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0272DB1C2CA246F500A19B51 /* TechHoliday */ = {
+			isa = PBXGroup;
+			children = (
+				0272DB492CA248EF00A19B51 /* Coordinator */,
+				0272DB502CA248EF00A19B51 /* Model */,
+				0272DB4D2CA248EF00A19B51 /* Network */,
+				0272DB4A2CA248EF00A19B51 /* View */,
+				0272DB522CA248EF00A19B51 /* ViewModel */,
+				0272DB1D2CA246F500A19B51 /* TechHolidayApp.swift */,
+				0272DB1F2CA246F500A19B51 /* ContentView.swift */,
+				0272DB212CA246F900A19B51 /* Assets.xcassets */,
+				0272DB232CA246F900A19B51 /* Preview Content */,
+			);
+			path = TechHoliday;
+			sourceTree = "<group>";
+		};
+		0272DB232CA246F900A19B51 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0272DB242CA246F900A19B51 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0272DB2D2CA246F900A19B51 /* TechHolidayTests */ = {
+			isa = PBXGroup;
+			children = (
+				0272DB472CA248E300A19B51 /* HolidayViewModelTest.swift */,
+				0272DB2E2CA246F900A19B51 /* TechHolidayTests.swift */,
+			);
+			path = TechHolidayTests;
+			sourceTree = "<group>";
+		};
+		0272DB372CA246F900A19B51 /* TechHolidayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0272DB382CA246F900A19B51 /* TechHolidayUITests.swift */,
+				0272DB3A2CA246F900A19B51 /* TechHolidayUITestsLaunchTests.swift */,
+			);
+			path = TechHolidayUITests;
+			sourceTree = "<group>";
+		};
+		0272DB492CA248EF00A19B51 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		0272DB4A2CA248EF00A19B51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0272DB4B2CA248EF00A19B51 /* HolidetailView.swift */,
+				0272DB4C2CA248EF00A19B51 /* HolidayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0272DB4D2CA248EF00A19B51 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0272DB4E2CA248EF00A19B51 /* NetworkService.swift */,
+				0272DB4F2CA248EF00A19B51 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0272DB502CA248EF00A19B51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0272DB512CA248EF00A19B51 /* techEval9162024swiftui.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0272DB522CA248EF00A19B51 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0272DB532CA248EF00A19B51 /* HolidaysViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0272DB192CA246F500A19B51 /* TechHoliday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0272DB3E2CA246F900A19B51 /* Build configuration list for PBXNativeTarget "TechHoliday" */;
+			buildPhases = (
+				0272DB162CA246F500A19B51 /* Sources */,
+				0272DB172CA246F500A19B51 /* Frameworks */,
+				0272DB182CA246F500A19B51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechHoliday;
+			productName = TechHoliday;
+			productReference = 0272DB1A2CA246F500A19B51 /* TechHoliday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0272DB292CA246F900A19B51 /* TechHolidayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0272DB412CA246F900A19B51 /* Build configuration list for PBXNativeTarget "TechHolidayTests" */;
+			buildPhases = (
+				0272DB262CA246F900A19B51 /* Sources */,
+				0272DB272CA246F900A19B51 /* Frameworks */,
+				0272DB282CA246F900A19B51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0272DB2C2CA246F900A19B51 /* PBXTargetDependency */,
+			);
+			name = TechHolidayTests;
+			productName = TechHolidayTests;
+			productReference = 0272DB2A2CA246F900A19B51 /* TechHolidayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0272DB332CA246F900A19B51 /* TechHolidayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0272DB442CA246F900A19B51 /* Build configuration list for PBXNativeTarget "TechHolidayUITests" */;
+			buildPhases = (
+				0272DB302CA246F900A19B51 /* Sources */,
+				0272DB312CA246F900A19B51 /* Frameworks */,
+				0272DB322CA246F900A19B51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0272DB362CA246F900A19B51 /* PBXTargetDependency */,
+			);
+			name = TechHolidayUITests;
+			productName = TechHolidayUITests;
+			productReference = 0272DB342CA246F900A19B51 /* TechHolidayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0272DB122CA246F500A19B51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0272DB192CA246F500A19B51 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0272DB292CA246F900A19B51 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0272DB192CA246F500A19B51;
+					};
+					0272DB332CA246F900A19B51 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0272DB192CA246F500A19B51;
+					};
+				};
+			};
+			buildConfigurationList = 0272DB152CA246F500A19B51 /* Build configuration list for PBXProject "TechHoliday" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0272DB112CA246F500A19B51;
+			productRefGroup = 0272DB1B2CA246F500A19B51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0272DB192CA246F500A19B51 /* TechHoliday */,
+				0272DB292CA246F900A19B51 /* TechHolidayTests */,
+				0272DB332CA246F900A19B51 /* TechHolidayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0272DB182CA246F500A19B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0272DB252CA246F900A19B51 /* Preview Assets.xcassets in Resources */,
+				0272DB222CA246F900A19B51 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0272DB282CA246F900A19B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0272DB322CA246F900A19B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0272DB162CA246F500A19B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0272DB562CA248EF00A19B51 /* NetworkService.swift in Sources */,
+				0272DB582CA248EF00A19B51 /* techEval9162024swiftui.swift in Sources */,
+				0272DB202CA246F500A19B51 /* ContentView.swift in Sources */,
+				0272DB592CA248EF00A19B51 /* HolidaysViewModel.swift in Sources */,
+				0272DB552CA248EF00A19B51 /* HolidayView.swift in Sources */,
+				0272DB572CA248EF00A19B51 /* NetworkError.swift in Sources */,
+				0272DB542CA248EF00A19B51 /* HolidetailView.swift in Sources */,
+				0272DB1E2CA246F500A19B51 /* TechHolidayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0272DB262CA246F900A19B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0272DB2F2CA246F900A19B51 /* TechHolidayTests.swift in Sources */,
+				0272DB482CA248E300A19B51 /* HolidayViewModelTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0272DB302CA246F900A19B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0272DB392CA246F900A19B51 /* TechHolidayUITests.swift in Sources */,
+				0272DB3B2CA246F900A19B51 /* TechHolidayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0272DB2C2CA246F900A19B51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0272DB192CA246F500A19B51 /* TechHoliday */;
+			targetProxy = 0272DB2B2CA246F900A19B51 /* PBXContainerItemProxy */;
+		};
+		0272DB362CA246F900A19B51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0272DB192CA246F500A19B51 /* TechHoliday */;
+			targetProxy = 0272DB352CA246F900A19B51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0272DB3C2CA246F900A19B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0272DB3D2CA246F900A19B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0272DB3F2CA246F900A19B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TechHoliday/Preview Content\"";
+				DEVELOPMENT_TEAM = 38YPVZ62Y9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dameion.dismuke.TechHoliday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0272DB402CA246F900A19B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TechHoliday/Preview Content\"";
+				DEVELOPMENT_TEAM = 38YPVZ62Y9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dameion.dismuke.TechHoliday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0272DB422CA246F900A19B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38YPVZ62Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dameion.dismuke.TechHolidayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechHoliday.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TechHoliday";
+			};
+			name = Debug;
+		};
+		0272DB432CA246F900A19B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38YPVZ62Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dameion.dismuke.TechHolidayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechHoliday.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TechHoliday";
+			};
+			name = Release;
+		};
+		0272DB452CA246F900A19B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38YPVZ62Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dameion.dismuke.TechHolidayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechHoliday;
+			};
+			name = Debug;
+		};
+		0272DB462CA246F900A19B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38YPVZ62Y9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dameion.dismuke.TechHolidayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechHoliday;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0272DB152CA246F500A19B51 /* Build configuration list for PBXProject "TechHoliday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0272DB3C2CA246F900A19B51 /* Debug */,
+				0272DB3D2CA246F900A19B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0272DB3E2CA246F900A19B51 /* Build configuration list for PBXNativeTarget "TechHoliday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0272DB3F2CA246F900A19B51 /* Debug */,
+				0272DB402CA246F900A19B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0272DB412CA246F900A19B51 /* Build configuration list for PBXNativeTarget "TechHolidayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0272DB422CA246F900A19B51 /* Debug */,
+				0272DB432CA246F900A19B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0272DB442CA246F900A19B51 /* Build configuration list for PBXNativeTarget "TechHolidayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0272DB452CA246F900A19B51 /* Debug */,
+				0272DB462CA246F900A19B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0272DB122CA246F500A19B51 /* Project object */;
+}
